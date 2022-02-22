@@ -99,3 +99,21 @@ footer > p{
     font-size: 13px;
     margin-top: 5px ;
 }
+
+@media (max-width: 960px) {
+    .caixa{
+        width: auto;
+        text-align: center;
+    }
+    main{
+        width: auto;
+        margin-left: 15px ;
+    }
+    nav{
+        position: static;
+    }
+    #mensagem{
+           width: auto;
+    }
+
+}
