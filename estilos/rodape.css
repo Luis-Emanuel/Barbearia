@@ -1,0 +1,11 @@
+.rodape{
+    background-image: url(../imagens/bg.jpg);
+    text-align: center;
+    
+    padding: 40px 0px;
+}
+.rodape__paragrafo{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+}

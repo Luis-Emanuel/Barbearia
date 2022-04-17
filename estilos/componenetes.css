@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+.conteiner{
+    width: 940px;
+    margin: 0px auto;
+}
+.margem__padrao{
+    margin-bottom: 1em;
+}
+@media screen and (max-width: 940px){
+    .conteiner{
+        width: auto;
+    }  
+}

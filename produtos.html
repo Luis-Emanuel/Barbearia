@@ -5,46 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/componenetes.css">
+    <link rel="stylesheet" href="estilos/cabecalho.css">
     <link rel="stylesheet" href="estilos/produtos-style.css">
+    <link rel="stylesheet" href="estilos/rodape.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
     <title>Produtos - Barbearia </title>
 </head>
 <body>
-    <header>
-        <div class="caixa">
-            <img  src="imagens/logo.png" alt="logo alura">
-            <nav>
-                <ul>
-                    <li class="navegação"><a href="index.html">Home</a></li>
-                    <li class="navegação"><a href="produtos.html">Produtos</a></li>
-                    <li class="navegação"><a href="contato.html">Contato</a></li>
+    <header class="cabecalho">
+        <div class="container__cabecalho conteiner">
+            <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
+            <nav class="menu__navegacao">
+                <ul class="menu__navegacao__lista">
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <ul class="produtos">
-            <li>
-                <h2>Cabelo</h2>
-                <img src="imagens/cabelo.jpg" alt="cabelo">
-                <p class="produto-descricao">Na tesoura ou na máquina, como o cliente preferir</p>
-                <p class="produto-preco">R$ 25,00</p>
+        <ul class="lista__produto conteiner">
+            <li class="produto">
+                <h2 class="produto__titulo">Cabelo</h2>
+                <img src="imagens/cabelo.jpg" alt="">
+                <p class="produto__descricao" >Na tesoura ou na máquina,como o cliente preferir</p>
+                <p class="produto__preco" >R$ 25,00</p>
             </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="imagens/barba.jpg" alt="barba">
-                <p class="produto-descricao">Corte e desenho profissional de barba</p>
-                <p class="produto-preco">R$ 18,00</p>
+            <li class="produto">
+                <h2 class="produto__titulo">Barba</h2>
+                <img src="imagens/barba.jpg" alt="">
+                <p class="produto__descricao" >Corte e desenho profissional de barba</p>
+                <p class="produto__preco" >R$ 18,00</p>
             </li>
-            <li>
-                <h2>Cabelo + Barba</h2>
-                <img src="imagens/cabelo+barba.jpg" alt="Cabelo e barba">
-                <p class="produto-descricao">Pacote completo de cabelo e barba</p>
-                <p class="produto-preco">R$ 35,00</p>
+            <li class="produto">
+                <h2 class="produto__titulo">Cabelo + Barba</h2>
+                <img src="imagens/cabelo+barba.jpg" alt="">
+                <p class="produto__descricao" >Pacote completo de cabelo e barba</p>
+                <p class="produto__preco" >R$ 35,00</p>
             </li>
         </ul>
     </main>
-    <footer>
-        <img src="imagens/logo-branco.png" alt="logo-barberaria">
-        <p> &copy; Barbearia Alura - 2022</p>
+    <footer class="rodape">
+        <img src="imagens/logo-branco.png" alt="">
+        <p class="rodape__paragrafo"> &#xA9; Copyright Barbearia Alura - 2022</p>
     </footer>
 </html>

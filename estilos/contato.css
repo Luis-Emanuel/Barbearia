@@ -1,0 +1,45 @@
+.formulario{
+    margin: 40px 0px;
+}
+.formulario__etiqueta{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.formulario__entrada{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0px;
+}
+.botao__enviar{
+    width: 40%;
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.botao__enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+table{
+    margin: 20px 0px 40px;
+}
+thead{
+    background-color: #757575;
+    color: white;
+    font-weight: bold;
+}
+th,td{
+    border:1px solid black;
+    padding: 8px 15px;
+}

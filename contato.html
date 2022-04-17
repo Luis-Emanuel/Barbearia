@@ -6,63 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="estilos/reset.css">
-    <link rel="stylesheet" href="estilos/contato-style.css">
+    <link rel="stylesheet" href="estilos/componenetes.css">
+    <link rel="stylesheet" href="estilos/cabecalho.css">
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="estilos/rodape.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="caixa">
-            <img  src="imagens/logo.png" alt="logo alura">
-            <nav>
-                <ul>
-                    <li class="navegação"><a href="index.html">Home</a></li>
-                    <li class="navegação"><a href="produtos.html">Produtos</a></li>
-                    <li class="navegação"><a href="contato.html">Contato</a></li>
+    <header class="cabecalho">
+        <div class="container__cabecalho conteiner">
+            <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
+            <nav class="menu__navegacao">
+                <ul class="menu__navegacao__lista">
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
+                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <form>
-            <label for="nome">Nome e sobrenome:</label>
-            <input type="text" id="nome" class="input-padrao" required>
+    <main class="conteiner">
+        <form class="formulario">
+            <label class="formulario__etiqueta" for="nome_sobrenome">Nome e sobrenome</label>
+            <input class="formulario__entrada" type="text" id="nome_sobrenome" required placeholder="Nome e sobrenome">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx - xxxx">
+            <label class="formulario__etiqueta" for="email">Email</label>
+            <input class="formulario__entrada" type="email" id="email" required placeholder="seuemail@dominio.com">
             
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="Mensagem" id="mensagem" cols="50%" rows="10"></textarea class="input-padrao" required>
+            <label class="formulario__etiqueta" for="telefone">Telefone</label>
+            <input class="formulario__entrada" type="tel" id="telefone" required placeholder="(xx) xxxx-xxxx">
+
+            <label class="formulario__etiqueta" for="mensagem">Mensagem</label>
+            <textarea class="formulario__entrada" name="" id="mensagem" cols="70" rows="10" required ></textarea>
 
             
             <fieldset>
-                <legend>Como prefere o nosso contato?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                <legend class="formulario__etiqueta">Como prefere o nosso contato?</legend>
+                <label class="formulario__etiqueta" for="email-radio">
+                    <input name="contato" type="radio" id="email-radio" checked>
+                    Email
+                </label>
                 
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                <label class="formulario__etiqueta" for="telefone-radio">
+                    <input name="contato" type="radio" id="telefone-radio">
+                    Telefone
+                </label>
                 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>whatsapp</label>
+                <label class="formulario__etiqueta" for="whatsapp-radio">
+                    <input name="contato" type="radio" id="whatsapp-radio">
+                    Whatsapp
+                </label>
             </fieldset>
+        
             
             <fieldset>
                 <legend>Qual horário prefere ser atendido?</legend>
-                <select >
-                    <option value="manha">Manhã</option>
-                    <option value="tarde">Tarde</option>
-                    <option value="noite">Noite</option>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
                 </select>
             </fieldset>
             
-            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email? </label>
-            
-            <input type="submit" value="Enviar formulário" class="enviar">           
+
+            <label class="formulario__etiqueta checkbox"> <input type="checkbox" checked> Gostaria de receber nosssas novidades por email?</label>
+
+            <input class="botao__enviar" type="submit" value="Enviar formulário">
         </form>
-        <table>
-            <thead>
+        <table class="tabela__horario">
+            <thead >
                 <tr>
                     <th>Dia</th>
-                    <th>Horário</th>
+                    <th>horário</th>
                 </tr>
             </thead>
             <tbody>
@@ -81,9 +98,9 @@
             </tbody>
         </table>
     </main>
-    <footer>
+    <footer class="rodape">
         <img src="imagens/logo-branco.png" alt="logo-barberaria">
-        <p> &copy; Barbearia Alura - 2022</p>
+        <p class="rodape__paragrafo"> &copy; Barbearia Alura - 2019</p>
     </footer>
 </body>
 </html>

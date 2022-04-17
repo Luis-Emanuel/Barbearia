@@ -1,159 +1,87 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
-@font-face {
-    font-family: 'faroesti';
-    src: url(../fontes/Eastwood.ttf);
-}
-:root{
-    --font01: 'faroesti', sans-serif
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-header{
-    background-color: rgb(112, 112, 112);  
-    margin: 0px auto;
-}
-.caixa{
-    position: relative;
-    width: 940px;
-    margin: 0px auto;
-}
-nav{
-    position: absolute;
-    top: 110px;
-    right: 110px;
-}
-nav > ul > li{
-    display: inline;
-    margin-right: 15px;
-} 
-.navegação > a{
-    text-transform: uppercase;
-    color: black;
-    font-size: 22px;
-    text-decoration: none; 
-    font-weight: bold;   
-}
-li > a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+.titulo__cabecalho{
+    margin-left: 20px;
 }
 .banner{
-    width: 100%;
+    width: 100vw;
 }
-.titulo-principal{
+.container__sobre{
+    background-color: #fefefe;
+    padding: 30px;
+}
+.utencilios{
+    width: 150px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+.sobre__paragrafo{
     text-align: center;
-    font-size: 2em;
-    margin: 1em;
-    font-family: var(--font01);
-    clear: left;
-    color: rgba(0, 0, 0, 0.527);
 }
-.principal{
-    padding: 3em 0px;
-    background:#fefefe;
-    width: 940px;
-    margin: 0px auto ;
-}
-.principal > p{
-    text-align: justify;
-    font-size: 18px;
-    padding-bottom: 1.0em;
-}
-.principal strong{
-    font-weight: bold;
-}
-.principal em{
+.missao{
     font-style: italic;
 }
-.utesilios{
-    width: 110px;
-    float: left;
-    margin-right:20px;
+.missao__frase{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.container__mapa{
+    padding: 3em 0px;
+    text-align: center;
+    background: linear-gradient(#fefefe,#888888);
+}
+.mapa__paragrafo{
+    margin-bottom: 2em;
 }
 .mapa{
-    padding: 3em 0px;;
-    background: linear-gradient(#fefefe, #888888);
-}
-.conteudo-mapa{
     width: 940px;
     margin: 0px auto;
 }
-.mapa p{
-    margin-bottom:2em ;
-    text-align: center;
+.container__beneficios{
+    background-color: #888888;
+    padding: 3em 0px;
 }
 .beneficios{
-    padding: 3em 0px;
-    background: #888888;
-}
-.conteudo-beneficios{
     width: 640px;
     margin: 0px auto;
 }
-.lista-beneficios{
-    width: 40%;
+.beneficios__lista{
     display: inline-block;
     vertical-align: top;
-    list-style-position: inside;
-    list-style-type:"★";
+    width: 40%;
+    
 }
-.itens{
-    line-height: 1.5em;
+.beneficios__itens{
+    line-height: 1.5;
 }
-.itens:first-child{
+.beneficios__itens:first-child{
     font-weight: bold;
 }
-.img-beneficios{
+.beneficios__itens::before{
+    content: "★";
+}
+.banner__beneficios{
     width: 60%;
     transition: 400ms;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    box-shadow: 1px 1px 10px black;
 }
-.img-beneficios:hover{
-    opacity: 0.3;
+.banner__beneficios:hover{
+    opacity: 0.30;
 }
 .video{
     width: 560px;
     margin: 2em auto;
 }
-footer{
-    text-align: center;
-    background-image: url(../imagens/bg.jpg);
-}
-footer > p{
-    font-size: 13px;
-    color: white;
-    padding-bottom: 20px ;
-}
-
-@media (max-width: 960px) {
-    .caixa, .principal, .conteudo-mapa, .conteudo-beneficios, .video{
+@media screen and (max-width: 940px){
+    .mapa,.video,.beneficios{
         width: auto;
-    }
-    h1{
-        text-align: center;
-    }
-    nav{
-        position: static;
-        text-align: center;
-    }
-    .lista-beneficios, .img-beneficios{
-        width: 100%;
-    }
-    .lista-beneficios{
-        margin-bottom: 2em;
-        display: block;
-    }
-    .itens{
-        margin-left: 20px;
-    }
-    .video, p{
-       margin-left: 20px;
-       margin-right: 20px;
-    }
-    .img-beneficios{
-        box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.493) ;
     } 
+    .video{
+        padding: 0px 30px;  
+    }
+    .sobre__paragrafo{
+        text-align: left;
+        line-height: 1.2;
+    }
+    .beneficios__lista,.banner__beneficios{
+        width: 100vw;
+    }
 }
