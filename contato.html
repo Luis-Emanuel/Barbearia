@@ -15,29 +15,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#conteudoPrincipal" class="pularNavegacao">Pular para contúdo principal</a>
     <header class="cabecalho"> 
-            <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
-            <nav class="menu__navegacao">
-                <ul class="menu__navegacao__lista">
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
-                </ul>
-        </div>
+        <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
+        <nav class="menu__navegacao">
+            <ul class="menu__navegacao__lista">
+               <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
+                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
+                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="conteiner">
-        <form class="formulario">
-            <label class="formulario__etiqueta" for="nome_sobrenome">Nome e sobrenome</label>
-            <input class="formulario__entrada" type="text" id="nome_sobrenome" required placeholder="Nome e sobrenome">
-
-            <label class="formulario__etiqueta" for="email">Email</label>
-            <input class="formulario__entrada" type="email" id="email" required placeholder="seuemail@dominio.com">
-            
-            <label class="formulario__etiqueta" for="telefone">Telefone</label>
-            <input class="formulario__entrada" type="tel" id="telefone" required placeholder="(xx) xxxx-xxxx">
-
-            <label class="formulario__etiqueta" for="mensagem">Mensagem</label>
-            <textarea class="formulario__entrada" name="" id="mensagem" cols="70" rows="10" required ></textarea>
+        <form id="conteudoPrincipal" class="formulario">
+            <div class="formulario__campos">
+                <label class="formulario__etiqueta" for="nome_sobrenome">Nome e sobrenome</label>
+                <input class="formulario__entrada" type="text" id="nome_sobrenome" required placeholder="Nome e sobrenome">
+                <label class="formulario__etiqueta" for="email">Email</label>
+                <input class="formulario__entrada" type="email" id="email" required placeholder="seuemail@dominio.com">
+                
+                <label class="formulario__etiqueta" for="telefone">Telefone</label>
+                <input class="formulario__entrada" type="tel" id="telefone" required placeholder="(xx) xxxx-xxxx">
+                <label class="formulario__etiqueta" for="mensagem">Mensagem</label>
+                <textarea class="formulario__entrada" name="" id="mensagem" cols="70" rows="10" required ></textarea>
+            </div>
 
             
             <fieldset>
@@ -70,7 +71,7 @@
             
 
             <label class="formulario__etiqueta checkbox"> <input type="checkbox" checked> Gostaria de receber nosssas novidades por email?</label>
-
+        
             <input class="botao__enviar" type="submit" value="Enviar formulário">
         </form>
         <table class="tabela__horario">

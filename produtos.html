@@ -15,40 +15,41 @@
     <title>Produtos - Barbearia </title>
 </head>
 <body>
+    <a href="#conteudoPrincipal" class="pularNavegacao">Pular para contúdo principal</a>
     <header class="cabecalho">
-            <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
-            <nav class="menu__navegacao">
-                <ul class="menu__navegacao__lista">
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
-                    <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
+        <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt="Logo da apeperia"></h1>
+        <nav class="menu__navegacao">
+            <ul class="menu__navegacao__lista">
+                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
+                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="produtos.html">Produtos</a></li>
+                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <ul class="lista__produto conteiner">
+        <ul id="conteudoPrincipal" class="lista__produto conteiner">
             <li class="produto">
                 <h2 class="produto__titulo">Cabelo</h2>
-                <img src="imagens/cabelo.jpg" alt="">
+                <img class="produto__imagem" src="imagens/cabelo.jpg" alt="Desenho de um cabelo">
                 <p class="produto__descricao" >Na tesoura ou na máquina,como o cliente preferir</p>
                 <p class="produto__preco" >R$ 25,00</p>
             </li>
             <li class="produto">
                 <h2 class="produto__titulo">Barba</h2>
-                <img src="imagens/barba.jpg" alt="">
+                <img class="produto__imagem" src="imagens/barba.jpg" alt="Desenho de um barba">
                 <p class="produto__descricao" >Corte e desenho profissional de barba</p>
                 <p class="produto__preco" >R$ 18,00</p>
             </li>
             <li class="produto">
                 <h2 class="produto__titulo">Cabelo + Barba</h2>
-                <img src="imagens/cabelo+barba.jpg" alt="">
+                <img class="produto__imagem" src="imagens/cabelo+barba.jpg" alt="Desenho de um cabelo e barba">
                 <p class="produto__descricao" >Pacote completo de cabelo e barba</p>
                 <p class="produto__preco" >R$ 35,00</p>
             </li>
         </ul>
     </main>
     <footer class="rodape">
-        <img src="imagens/logo-branco.png" alt="">
+        <img src="imagens/logo-branco.png" alt="Logo da apeperia">
         <p class="rodape__paragrafo"> &#xA9; Copyright Barbearia Alura - 2022</p>
     </footer>
 </html>

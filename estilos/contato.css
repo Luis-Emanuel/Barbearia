@@ -1,6 +1,11 @@
 .formulario{
     margin: 40px 0px;
 }
+.formulario__campos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .formulario__etiqueta{
     display: block;
     font-size: 1.1em;

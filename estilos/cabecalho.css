@@ -24,6 +24,19 @@
     color: #c78c19;
     text-decoration: underline;
 }
+.pularNavegacao,
+.pularNavegacao:active,
+.pularNavegacao:focus,
+.pularNavegacao:hover {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+  position: absolute;
+  left: -9999;
+}
 @media screen and (max-width: 940px){
    
     .menu__navegacao__lista{
