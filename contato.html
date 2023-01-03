@@ -17,7 +17,11 @@
 <body>
     <a href="#conteudoPrincipal" class="pularNavegacao">Pular para contúdo principal</a>
     <header class="cabecalho"> 
+
+        <!-- Logo -->
         <h1 class="cabecalho__logo"><img src="imagens/logo.png" alt=""></h1>
+
+        <!-- NAV BAR -->
         <nav class="menu__navegacao">
             <ul class="menu__navegacao__lista">
                <li class="menu__navegacao__item"><a class="menu__navegacao__link" href="index.html">Home</a></li>
@@ -27,6 +31,8 @@
         </nav>
     </header>
     <main class="conteiner">
+        
+        <!-- Formulário  -->
         <form id="conteudoPrincipal" class="formulario">
             <div class="formulario__campos">
                 <label class="formulario__etiqueta" for="nome_sobrenome">Nome e sobrenome</label>
@@ -40,7 +46,7 @@
                 <textarea class="formulario__entrada" name="" id="mensagem" cols="70" rows="10" required ></textarea>
             </div>
 
-            
+            <!-- Caixa de pergunta  -->
             <fieldset>
                 <legend class="formulario__etiqueta">Como prefere o nosso contato?</legend>
                 <label class="formulario__etiqueta" for="email-radio">
@@ -59,7 +65,7 @@
                 </label>
             </fieldset>
         
-            
+             <!-- Horario de atendimento  -->
             <fieldset>
                 <legend>Qual horário prefere ser atendido?</legend>
                 <select name="" id="">
@@ -69,11 +75,13 @@
                 </select>
             </fieldset>
             
-
             <label class="formulario__etiqueta checkbox"> <input type="checkbox" checked> Gostaria de receber nosssas novidades por email?</label>
-        
+            
+            <!-- Botão para envio de formulário  -->
             <input class="botao__enviar" type="submit" value="Enviar formulário">
         </form>
+        
+        <!-- Tabela com horário de funcionamento  -->
         <table class="tabela__horario">
             <thead >
                 <tr>
@@ -97,7 +105,11 @@
             </tbody>
         </table>
     </main>
+    
+    <!-- Rodapé  -->
     <footer class="rodape">
+        
+        <!-- Logo da barbearia  -->
         <img src="imagens/logo-branco.png" alt="logo-barberaria">
         <p class="rodape__paragrafo"> &copy; Barbearia Alura - 2019</p>
     </footer>
