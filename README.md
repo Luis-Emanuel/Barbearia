@@ -11,7 +11,7 @@
     
 ## 🔨 Funcionalidades do projeto
 
-O projeto e composto por um conjunto de três páginas: home, produtos e contato. A página “home” tem como objetivo informar um pouco sobre a barbearia como localização e benefícios e mostrar um pouco da experiência que o cliente pode ter. A página “produtos” apresenta a lista de serviços disponíveis com uma descrição e o seu valor e por último a página de “contato” que tem como objetivo aproximar o cliente da barbearia ou até mesmo possibilitar que ele marque um horário para ser atendido ou tirar dúvidas.
+<p align="justify">O projeto e composto por um conjunto de três páginas: home, produtos e contato. A página “home” tem como objetivo informar um pouco sobre a barbearia como localização e benefícios e mostrar um pouco da experiência que o cliente pode ter. A página “produtos” apresenta a lista de serviços disponíveis com uma descrição e o seu valor e por último a página de “contato” que tem como objetivo aproximar o cliente da barbearia ou até mesmo possibilitar que ele marque um horário para ser atendido ou tirar dúvidas.</p>
 
 ## 📁 Acesso ao projeto
 
