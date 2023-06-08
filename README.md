@@ -8,7 +8,9 @@
 
 - `HTML`: Utilizamos o HTML de forma semântica e bem estruturada buscando o melhor desempenho para os buscadores 
 
-- `CSS`: Utilizamos Flex box pois ela fornece controle sobre a direcionalidade, alinhamento, tamanho, ordem e espaçamento dos itens dentro delas. Utilizamos também o BEM, ela é uma convenção de nomenclatura para nomes de classe CSS, que fornece contexto sobre o propósito e a estrutura de diferentes elementos da interface do usuário.  
+- `CSS`: Um meio de definir estilos para páginas web. Ele pode ser usado para modificar a aparência da mesma, como cor das letras, o tamanho dos textos, os fundos ou até mesmo mover elementos para dentro e fora do site 
+
+- `BEM`: É uma convenção de nomenclatura para nomes de classe CSS, que fornece contexto sobre o propósito e a estrutura de diferentes elementos da interface do usuário.
 
 - `Media query`: Aplicamos esse tipo de estimação usada na linguagem de marcação Cascading Style Sheets (CSS) para aplicar estilos a uma página dependendo das características da tela que está exibindo a mesma. Essas estimativas são expressões escritas em conjunto com os parâmetros @media e geralmente contém instruções sobre como o layout deve ser personalizado por exemplo em dispositivos móveis ou computadores
 
