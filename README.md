@@ -1,7 +1,7 @@
 <h1 align="center">Barbearia Alura</h1>
 <p align="center"> Pagina Web de uma barbearia com área de contato e lista de  produtos</p>
 <div align="center">
-<img src="https://github.com/Luis-Emanuel/barbearia/blob/main/imagens/readmeGIF.gif?raw=true" width="500px" />
+<img src="https://github.com/Luis-Emanuel/barbearia/blob/main/readme/readmeGIF.gif?raw=true"  />
 </div>	
 
 ## ✔️ Técnicas e tecnologias utilizadas
