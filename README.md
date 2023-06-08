@@ -22,3 +22,12 @@
 ## 📁 Acesso ao projeto
 
 [Veja o projeto final do curso em funcionamento](https://barbearia-k7xo27ev3-luis-emanuel.vercel.app/index.html).
+
+## 📷FOTOS DO PROJETO
+<div align="center">
+<img width="90%" src="https://github.com/Luis-Emanuel/barbearia/blob/main/readme/home.png?raw=true"/>
+<hr> 
+<img width="90%" src="https://github.com/Luis-Emanuel/barbearia/blob/main/readme/produtos.png?raw=true"/>
+<hr> 
+<img width="90%" src="https://github.com/Luis-Emanuel/barbearia/blob/main/readme/contato.png?raw=true"/>
+</div>
