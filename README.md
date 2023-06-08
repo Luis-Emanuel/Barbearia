@@ -1,13 +1,17 @@
 <h1 align="center">Barbearia Alura</h1>
 <p align="center"> Pagina Web de uma barbearia com área de contato e lista de  produtos</p>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/43679743/210361088-6713b125-dbaa-4f17-a2cd-fb589e9b2031.png" width="200px" />
+<img src="https://github.com/Luis-Emanuel/barbearia/blob/main/imagens/readmeGIF.gif?raw=true" width="500px" />
 </div>	
 
- - Tecnlogias utilizadas:
+## ✔️ Técnicas e tecnologias utilizadas
 
-[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- `HTML`: Utilizamos o HTML de forma semântica e bem estruturada buscando o melhor desempenho para os buscadores 
+
+- `CSS`: Utilizamos Flex box pois ela fornece controle sobre a direcionalidade, alinhamento, tamanho, ordem e espaçamento dos itens dentro delas. Utilizamos também o BEM, ela é uma convenção de nomenclatura para nomes de classe CSS, que fornece contexto sobre o propósito e a estrutura de diferentes elementos da interface do usuário.  
+
+- `Media query`: Aplicamos esse tipo de estimação usada na linguagem de marcação Cascading Style Sheets (CSS) para aplicar estilos a uma página dependendo das características da tela que está exibindo a mesma. Essas estimativas são expressões escritas em conjunto com os parâmetros @media e geralmente contém instruções sobre como o layout deve ser personalizado por exemplo em dispositivos móveis ou computadores
+
     
 ## 🔨 Funcionalidades do projeto
 
@@ -15,4 +19,4 @@
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://barbearia-k7xo27ev3-luis-emanuel.vercel.app/contato.html).
+[Veja o projeto final do curso em funcionamento](https://barbearia-k7xo27ev3-luis-emanuel.vercel.app/index.html).
