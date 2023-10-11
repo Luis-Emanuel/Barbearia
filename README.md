@@ -21,7 +21,7 @@
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://barbearia-k7xo27ev3-luis-emanuel.vercel.app/index.html).
+[Veja o projeto final do curso em funcionamento](https://barbearia-nt.vercel.app/).
 
 ## 📷FOTOS DO PROJETO
 <div align="center">
